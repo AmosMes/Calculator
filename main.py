@@ -36,8 +36,8 @@ operations = {
 should_continue = True
 while  should_continue:
 # Printing the keys from the dictionary so the user will be able to pick a mathematical operation.
-    num1 = int(input(f"What is the first number?: "))
-    num2 = int(input(f"What is the second number?: "))
+    num1 = float(input(f"What is the first number?: "))
+    num2 = float(input(f"What is the second number?: "))
 
     for key, value in operations.items():
       print(key)
